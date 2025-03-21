@@ -1,0 +1,71 @@
+/* Base portlet styling */
+.portlet {
+    background-color: #f9f9f9; /* Light background for light mode */
+    border: 1px solid #ddd; /* Soft border */
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 20px;
+    padding: 12px;
+    overflow: hidden; /* Fix tag overflow */
+}
+
+/* Header styling */
+.portlet .portlet-header {
+    background-color: #007bff; /* Blue header */
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+}
+
+/* Content styling */
+.portlet .portlet-content {
+    padding: 10px;
+}
+
+/* Fix tag cloud */
+.portlet .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.portlet .tag-cloud a {
+    background-color: #ffebbb; /* Soft yellow */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.portlet .tag-cloud a:hover {
+    background-color: #ffd700;
+}
+
+/* User menu list fixes */
+.portlet ul {
+    list-style: none;
+    padding: 0;
+}
+
+.portlet ul li {
+    padding: 5px 0;
+}
+
+.portlet ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.portlet ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.contact-parent-container {
+    width: 100% !important;
+    max-width: none !important;
+}
